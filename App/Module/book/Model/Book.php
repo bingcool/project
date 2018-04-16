@@ -5,8 +5,8 @@ use Swoolefy\Core\Model\BModel;
 
 class Book extends BModel {
 
-	public function record() {
+	public function getBookInfo() {
 		$name = $_GET['name'];
-		return ['name'=>'bingcoolhuang-MODULE'.rand(1,100).'-'.$name];
+		return ['name'=>'swoolefy'.rand(1,100).'-'.$name];
 	}
 }
