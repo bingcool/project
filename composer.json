@@ -1,0 +1,14 @@
+{
+    "license": "MIT",
+    "type": "project",
+    "minimum-stability": "dev",
+    "require": {
+    	"bingcool/swoolefy": "dev-master"
+    },
+    "repositories": {
+        "packagist": {
+            "type": "composer",
+            "url": "https://packagist.phpcomposer.com"
+        }
+    }
+}
