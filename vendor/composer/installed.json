@@ -6,12 +6,12 @@
         "source": {
             "type": "git",
             "url": "https://github.com/bingcool/swoolefy.git",
-            "reference": "3922214e8223e0de74a9dc47389e9be0f6ec3800"
+            "reference": "8a07afdf16051c282160f088044679875e7f13f8"
         },
         "dist": {
             "type": "zip",
-            "url": "https://files.phpcomposer.com/files/bingcool/swoolefy/3922214e8223e0de74a9dc47389e9be0f6ec3800.zip",
-            "reference": "3922214e8223e0de74a9dc47389e9be0f6ec3800",
+            "url": "https://files.phpcomposer.com/files/bingcool/swoolefy/8a07afdf16051c282160f088044679875e7f13f8.zip",
+            "reference": "8a07afdf16051c282160f088044679875e7f13f8",
             "shasum": ""
         },
         "require": {
@@ -25,7 +25,7 @@
         },
         "time": "2017-08-01T00:00:00+00:00",
         "type": "project",
-        "installation-source": "source",
+        "installation-source": "dist",
         "autoload": {
             "psr-4": {
                 "Swoolefy\\": "score/"
@@ -69,7 +69,7 @@
         },
         "time": "2018-03-25T13:47:51+00:00",
         "type": "library",
-        "installation-source": "source",
+        "installation-source": "dist",
         "autoload": {
             "psr-4": {
                 "think\\": "src"
@@ -97,25 +97,28 @@
         "source": {
             "type": "git",
             "url": "https://github.com/doctrine/lexer.git",
-            "reference": "0ae9b6019e78ec667b2c87d10822af89f707fd1d"
+            "reference": "0eda1aaf7bd195fc7baf5b9f2e6da5f930e44dd1"
         },
         "dist": {
             "type": "zip",
-            "url": "https://files.phpcomposer.com/files/doctrine/lexer/0ae9b6019e78ec667b2c87d10822af89f707fd1d.zip",
-            "reference": "0ae9b6019e78ec667b2c87d10822af89f707fd1d",
+            "url": "https://files.phpcomposer.com/files/doctrine/lexer/0eda1aaf7bd195fc7baf5b9f2e6da5f930e44dd1.zip",
+            "reference": "0eda1aaf7bd195fc7baf5b9f2e6da5f930e44dd1",
             "shasum": ""
         },
         "require": {
             "php": ">=5.3.2"
         },
-        "time": "2018-04-11T05:15:14+00:00",
+        "require-dev": {
+            "phpunit/phpunit": "^4.5"
+        },
+        "time": "2018-04-17T02:17:00+00:00",
         "type": "library",
         "extra": {
             "branch-alias": {
                 "dev-master": "1.0.x-dev"
             }
         },
-        "installation-source": "source",
+        "installation-source": "dist",
         "autoload": {
             "psr-4": {
                 "Doctrine\\Common\\Lexer\\": "lib/Doctrine/Common/Lexer"
@@ -225,7 +228,7 @@
         },
         "time": "2018-03-14T20:10:27+00:00",
         "type": "library",
-        "installation-source": "source",
+        "installation-source": "dist",
         "autoload": {
             "files": [
                 "MysqliDb.php",
@@ -459,7 +462,7 @@
                 "dev-master": "1.0.x-dev"
             }
         },
-        "installation-source": "source",
+        "installation-source": "dist",
         "autoload": {
             "psr-4": {
                 "Psr\\Log\\": "Psr/Log/"
@@ -625,7 +628,7 @@
                 "dev-master": "1.7-dev"
             }
         },
-        "installation-source": "source",
+        "installation-source": "dist",
         "autoload": {
             "psr-4": {
                 "Symfony\\Polyfill\\Mbstring\\": ""
@@ -703,7 +706,7 @@
                 "dev-master": "4.1-dev"
             }
         },
-        "installation-source": "source",
+        "installation-source": "dist",
         "autoload": {
             "psr-4": {
                 "Symfony\\Component\\Translation\\": ""
