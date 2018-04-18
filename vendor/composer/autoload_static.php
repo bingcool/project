@@ -4,14 +4,14 @@
 
 namespace Composer\Autoload;
 
-class ComposerStaticInitfe40c3c3a94acc92d3c412d7d7ae8a8f
+class ComposerStaticInitbd4d98a5310e05071d980cdf325ed228
 {
     public static $files = array (
         '2c102faa651ef8ea5874edb585946bce' => __DIR__ . '/..' . '/swiftmailer/swiftmailer/lib/swift_required.php',
         '0e6d7bf4a5811bfa5cf40c5ccd6fae6a' => __DIR__ . '/..' . '/symfony/polyfill-mbstring/bootstrap.php',
-        'e675755c435e9e82693af9ebebbaa735' => __DIR__ . '/..' . '/bingcool/swoolefy-orm/src/config.php',
         '9c9a81795c809f4710dd20bec1e349df' => __DIR__ . '/..' . '/joshcam/mysqli-database-class/MysqliDb.php',
         '94df122b6b32ca0be78d482c26e5ce00' => __DIR__ . '/..' . '/joshcam/mysqli-database-class/dbObject.php',
+        'e675755c435e9e82693af9ebebbaa735' => __DIR__ . '/..' . '/bingcool/swoolefy-orm/src/config.php',
     );
 
     public static $prefixLengthsPsr4 = array (
@@ -260,10 +260,10 @@ class ComposerStaticInitfe40c3c3a94acc92d3c412d7d7ae8a8f
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
-            $loader->prefixLengthsPsr4 = ComposerStaticInitfe40c3c3a94acc92d3c412d7d7ae8a8f::$prefixLengthsPsr4;
-            $loader->prefixDirsPsr4 = ComposerStaticInitfe40c3c3a94acc92d3c412d7d7ae8a8f::$prefixDirsPsr4;
-            $loader->fallbackDirsPsr4 = ComposerStaticInitfe40c3c3a94acc92d3c412d7d7ae8a8f::$fallbackDirsPsr4;
-            $loader->classMap = ComposerStaticInitfe40c3c3a94acc92d3c412d7d7ae8a8f::$classMap;
+            $loader->prefixLengthsPsr4 = ComposerStaticInitbd4d98a5310e05071d980cdf325ed228::$prefixLengthsPsr4;
+            $loader->prefixDirsPsr4 = ComposerStaticInitbd4d98a5310e05071d980cdf325ed228::$prefixDirsPsr4;
+            $loader->fallbackDirsPsr4 = ComposerStaticInitbd4d98a5310e05071d980cdf325ed228::$fallbackDirsPsr4;
+            $loader->classMap = ComposerStaticInitbd4d98a5310e05071d980cdf325ed228::$classMap;
 
         }, null, ClassLoader::class);
     }

@@ -826,7 +826,7 @@ class Carbon extends DateTime implements JsonSerializable
 
         $lastErrors = parent::getLastErrors();
 
-        if ($date instanceof DateTime) {
+        if ($date instanceof DateTime || $date instanceof DateTimeInterface) {
             $instance = static::instance($date);
             $instance::setLastErrors($lastErrors);
 
@@ -2149,6 +2149,26 @@ class Carbon extends DateTime implements JsonSerializable
     }
 
     /**
+     * Determines if the instance is within the next quarter
+     *
+     * @return bool
+     */
+    public function isNextQuarter()
+    {
+        return $this->quarter === $this->nowWithSameTz()->addQuarter()->quarter;
+    }
+
+    /**
+     * Determines if the instance is within the last quarter
+     *
+     * @return bool
+     */
+    public function isLastQuarter()
+    {
+        return $this->quarter === $this->nowWithSameTz()->subQuarter()->quarter;
+    }
+
+    /**
      * Determines if the instance is within the next month
      *
      * @return bool
@@ -2269,6 +2289,33 @@ class Carbon extends DateTime implements JsonSerializable
     public function isSameYear($date = null)
     {
         return $this->isSameAs('Y', $date);
+    }
+
+    /**
+     * Determines if the instance is in the current month
+     *
+     * @return bool
+     */
+    public function isCurrentQuarter()
+    {
+        return $this->isSameQuarter();
+    }
+
+    /**
+     * Checks if the passed in date is in the same quarter as the instance quarter (and year if needed).
+     *
+     * @param \Carbon\Carbon|\DateTimeInterface|null $date       The instance to compare with or null to use current day.
+     * @param bool                                   $ofSameYear Check if it is the same month in the same year.
+     *
+     * @return bool
+     */
+    public function isSameQuarter($date = null, $ofSameYear = false)
+    {
+        $date = $date ? static::instance($date) : static::now($this->tz);
+
+        static::expectDateTime($date);
+
+        return $this->quarter === $date->quarter && (!$ofSameYear || $this->isSameYear($date));
     }
 
     /**
@@ -4326,7 +4373,7 @@ class Carbon extends DateTime implements JsonSerializable
     public static function __callStatic($method, $parameters)
     {
         if (!static::hasMacro($method)) {
-            throw new \BadMethodCallException("Method {$method} does not exist.");
+            throw new \BadMethodCallException("Method $method does not exist.");
         }
 
         if (static::$localMacros[$method] instanceof Closure && method_exists('Closure', 'bind')) {
@@ -4349,15 +4396,19 @@ class Carbon extends DateTime implements JsonSerializable
     public function __call($method, $parameters)
     {
         if (!static::hasMacro($method)) {
-            throw new \BadMethodCallException("Method {$method} does not exist.");
+            throw new \BadMethodCallException("Method $method does not exist.");
         }
 
         $macro = static::$localMacros[$method];
 
         $reflexion = new \ReflectionFunction($macro);
         $reflectionParameters = $reflexion->getParameters();
-        $parametersCount = count($reflectionParameters);
-        if ($parametersCount > count($parameters) && $reflectionParameters[$parametersCount - 1]->name === 'self') {
+        $expectedCount = count($reflectionParameters);
+        $actualCount = count($parameters);
+        if ($expectedCount > $actualCount && $reflectionParameters[$expectedCount - 1]->name === 'self') {
+            for ($i = $actualCount; $i < $expectedCount - 1; $i++) {
+                $parameters[] = $reflectionParameters[$i]->getDefaultValue();
+            }
             $parameters[] = $this;
         }
 

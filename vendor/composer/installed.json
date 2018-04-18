@@ -6,12 +6,12 @@
         "source": {
             "type": "git",
             "url": "https://github.com/bingcool/swoolefy.git",
-            "reference": "8a07afdf16051c282160f088044679875e7f13f8"
+            "reference": "5da2d238bd39319dd3d79cfc12f2e48c6194fb9b"
         },
         "dist": {
             "type": "zip",
-            "url": "https://files.phpcomposer.com/files/bingcool/swoolefy/8a07afdf16051c282160f088044679875e7f13f8.zip",
-            "reference": "8a07afdf16051c282160f088044679875e7f13f8",
+            "url": "https://files.phpcomposer.com/files/bingcool/swoolefy/5da2d238bd39319dd3d79cfc12f2e48c6194fb9b.zip",
+            "reference": "5da2d238bd39319dd3d79cfc12f2e48c6194fb9b",
             "shasum": ""
         },
         "require": {
@@ -97,12 +97,12 @@
         "source": {
             "type": "git",
             "url": "https://github.com/doctrine/lexer.git",
-            "reference": "0eda1aaf7bd195fc7baf5b9f2e6da5f930e44dd1"
+            "reference": "0cba197282d38956a3cc117f4b0b82b74ffb9749"
         },
         "dist": {
             "type": "zip",
-            "url": "https://files.phpcomposer.com/files/doctrine/lexer/0eda1aaf7bd195fc7baf5b9f2e6da5f930e44dd1.zip",
-            "reference": "0eda1aaf7bd195fc7baf5b9f2e6da5f930e44dd1",
+            "url": "https://files.phpcomposer.com/files/doctrine/lexer/0cba197282d38956a3cc117f4b0b82b74ffb9749.zip",
+            "reference": "0cba197282d38956a3cc117f4b0b82b74ffb9749",
             "shasum": ""
         },
         "require": {
@@ -111,7 +111,7 @@
         "require-dev": {
             "phpunit/phpunit": "^4.5"
         },
-        "time": "2018-04-17T02:17:00+00:00",
+        "time": "2018-04-17T13:18:24+00:00",
         "type": "library",
         "extra": {
             "branch-alias": {
@@ -337,17 +337,17 @@
     },
     {
         "name": "nesbot/carbon",
-        "version": "1.26.3",
-        "version_normalized": "1.26.3.0",
+        "version": "1.26.4",
+        "version_normalized": "1.26.4.0",
         "source": {
             "type": "git",
             "url": "https://github.com/briannesbitt/Carbon.git",
-            "reference": "b63c0d809256a434ea74e6b41ca5f5f9d16220e6"
+            "reference": "e3d9014279133a3cccc01f6a691322a2d5a6a87b"
         },
         "dist": {
             "type": "zip",
-            "url": "https://files.phpcomposer.com/files/briannesbitt/Carbon/b63c0d809256a434ea74e6b41ca5f5f9d16220e6.zip",
-            "reference": "b63c0d809256a434ea74e6b41ca5f5f9d16220e6",
+            "url": "https://files.phpcomposer.com/files/briannesbitt/Carbon/e3d9014279133a3cccc01f6a691322a2d5a6a87b.zip",
+            "reference": "e3d9014279133a3cccc01f6a691322a2d5a6a87b",
             "shasum": ""
         },
         "require": {
@@ -358,7 +358,7 @@
             "friendsofphp/php-cs-fixer": "~2",
             "phpunit/phpunit": "^4.8.35 || ^5.7"
         },
-        "time": "2018-04-16T14:54:26+00:00",
+        "time": "2018-04-17T15:35:42+00:00",
         "type": "library",
         "installation-source": "dist",
         "autoload": {
