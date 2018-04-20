@@ -6,12 +6,12 @@
         "source": {
             "type": "git",
             "url": "https://github.com/bingcool/swoolefy.git",
-            "reference": "5da2d238bd39319dd3d79cfc12f2e48c6194fb9b"
+            "reference": "391e5703a017c7018af8fdae8e336b87c72ec5dd"
         },
         "dist": {
             "type": "zip",
-            "url": "https://files.phpcomposer.com/files/bingcool/swoolefy/5da2d238bd39319dd3d79cfc12f2e48c6194fb9b.zip",
-            "reference": "5da2d238bd39319dd3d79cfc12f2e48c6194fb9b",
+            "url": "https://files.phpcomposer.com/files/bingcool/swoolefy/391e5703a017c7018af8fdae8e336b87c72ec5dd.zip",
+            "reference": "391e5703a017c7018af8fdae8e336b87c72ec5dd",
             "shasum": ""
         },
         "require": {
@@ -25,7 +25,7 @@
         },
         "time": "2017-08-01T00:00:00+00:00",
         "type": "project",
-        "installation-source": "dist",
+        "installation-source": "source",
         "autoload": {
             "psr-4": {
                 "Swoolefy\\": "score/"
@@ -69,7 +69,7 @@
         },
         "time": "2018-03-25T13:47:51+00:00",
         "type": "library",
-        "installation-source": "dist",
+        "installation-source": "source",
         "autoload": {
             "psr-4": {
                 "think\\": "src"
@@ -118,7 +118,7 @@
                 "dev-master": "1.0.x-dev"
             }
         },
-        "installation-source": "dist",
+        "installation-source": "source",
         "autoload": {
             "psr-4": {
                 "Doctrine\\Common\\Lexer\\": "lib/Doctrine/Common/Lexer"
@@ -228,7 +228,7 @@
         },
         "time": "2018-03-14T20:10:27+00:00",
         "type": "library",
-        "installation-source": "dist",
+        "installation-source": "source",
         "autoload": {
             "files": [
                 "MysqliDb.php",
@@ -462,7 +462,7 @@
                 "dev-master": "1.0.x-dev"
             }
         },
-        "installation-source": "dist",
+        "installation-source": "source",
         "autoload": {
             "psr-4": {
                 "Psr\\Log\\": "Psr/Log/"
@@ -628,7 +628,7 @@
                 "dev-master": "1.7-dev"
             }
         },
-        "installation-source": "dist",
+        "installation-source": "source",
         "autoload": {
             "psr-4": {
                 "Symfony\\Polyfill\\Mbstring\\": ""
@@ -706,7 +706,7 @@
                 "dev-master": "4.1-dev"
             }
         },
-        "installation-source": "dist",
+        "installation-source": "source",
         "autoload": {
             "psr-4": {
                 "Symfony\\Component\\Translation\\": ""

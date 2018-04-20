@@ -340,3 +340,21 @@ Stack trace:
 #1 [internal function]: Swoolefy\Core\SwoolefyException::fatalError()
 #2 {main}
   thrown in /home/www/project/vendor/bingcool/swoolefy/score/Core/Sw
+[2018-04-19 15:09:45 ^834.3]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught Error: Class 'App\Task\AsyncTask' not found in /home/www/project/vendor/bingcool/swoolefy/score/Rpc/RpcDispatch.php:60
+Stack trace:
+#0 /home/www/project/vendor/bingcool/swoolefy/score/Websocket/WebsocketHander.php(70): Swoolefy\Rpc\RpcDispatch->dispatch()
+#1 /home/www/project/vendor/bingcool/swoolefy/score/Websocket/WebsocketEventServer.php(97): Swoolefy\Websocket\WebsocketHander->run(1, Array)
+#2 /home/www/project/vendor/bingcool/swoolefy/score/Webso
+[2018-04-19 15:09:45 $832.0]	WARNING	swManager_check_exit_status: worker#3 abnormal exit, status=255, signal=0
+[2018-04-19 15:09:46 ^835.4]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught Error: Class 'App\Task\AsyncTask' not found in /home/www/project/vendor/bingcool/swoolefy/score/Rpc/RpcDispatch.php:60
+Stack trace:
+#0 /home/www/project/vendor/bingcool/swoolefy/score/Websocket/WebsocketHander.php(70): Swoolefy\Rpc\RpcDispatch->dispatch()
+#1 /home/www/project/vendor/bingcool/swoolefy/score/Websocket/WebsocketEventServer.php(97): Swoolefy\Websocket\WebsocketHander->run(2, Array)
+#2 /home/www/project/vendor/bingcool/swoolefy/score/Webso
+[2018-04-19 15:09:46 $832.0]	WARNING	swManager_check_exit_status: worker#4 abnormal exit, status=255, signal=0
+[2018-04-19 15:09:49 ^836.5]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught Error: Class 'App\Task\AsyncTask' not found in /home/www/project/vendor/bingcool/swoolefy/score/Rpc/RpcDispatch.php:60
+Stack trace:
+#0 /home/www/project/vendor/bingcool/swoolefy/score/Websocket/WebsocketHander.php(70): Swoolefy\Rpc\RpcDispatch->dispatch()
+#1 /home/www/project/vendor/bingcool/swoolefy/score/Websocket/WebsocketEventServer.php(97): Swoolefy\Websocket\WebsocketHander->run(2, Array)
+#2 /home/www/project/vendor/bingcool/swoolefy/score/Webso
+[2018-04-19 15:09:49 $832.0]	WARNING	swManager_check_exit_status: worker#5 abnormal exit, status=255, signal=0
