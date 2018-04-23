@@ -1,0 +1,360 @@
+[2018-04-16 14:13:27 ^220.6]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught Error: Call to a member function setChannel() on null in /home/www/project/vendor/bingcool/swoolefy/score/Core/SwoolefyException.php:101
+Stack trace:
+#0 /home/www/project/vendor/bingcool/swoolefy/score/Core/SwoolefyException.php(31): Swoolefy\Core\SwoolefyException::shutHalt('Uncaught Error:...', 'error')
+#1 [internal function]: Swoolefy\Core\SwoolefyException::fatalError()
+#2 {main}
+  thrown in /home/www/project/vendor/bingcool/swoolefy/score/Core/Sw
+[2018-04-16 14:13:27 ^219.5]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught Error: Call to a member function setChannel() on null in /home/www/project/vendor/bingcool/swoolefy/score/Core/SwoolefyException.php:101
+Stack trace:
+#0 /home/www/project/vendor/bingcool/swoolefy/score/Core/SwoolefyException.php(31): Swoolefy\Core\SwoolefyException::shutHalt('Uncaught Error:...', 'error')
+#1 [internal function]: Swoolefy\Core\SwoolefyException::fatalError()
+#2 {main}
+  thrown in /home/www/project/vendor/bingcool/swoolefy/score/Core/Sw
+[2018-04-16 14:13:27 $215.0]	WARNING	swManager_check_exit_status: worker#6 abnormal exit, status=255, signal=0
+[2018-04-16 14:13:27 *223.1]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught Error: Call to a member function setChannel() on null in /home/www/project/vendor/bingcool/swoolefy/score/Core/SwoolefyException.php:101
+Stack trace:
+#0 /home/www/project/vendor/bingcool/swoolefy/score/Core/SwoolefyException.php(31): Swoolefy\Core\SwoolefyException::shutHalt('Uncaught Error:...', 'error')
+#1 [internal function]: Swoolefy\Core\SwoolefyException::fatalError()
+#2 {main}
+  thrown in /home/www/project/vendor/bingcool/swoolefy/score/Core/Sw
+[2018-04-16 14:13:27 $215.0]	WARNING	swManager_check_exit_status: worker#5 abnormal exit, status=255, signal=0
+[2018-04-16 14:13:27 ^221.7]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught Error: Call to a member function setChannel() on null in /home/www/project/vendor/bingcool/swoolefy/score/Core/SwoolefyException.php:101
+Stack trace:
+#0 /home/www/project/vendor/bingcool/swoolefy/score/Core/SwoolefyException.php(31): Swoolefy\Core\SwoolefyException::shutHalt('Uncaught Error:...', 'error')
+#1 [internal function]: Swoolefy\Core\SwoolefyException::fatalError()
+#2 {main}
+  thrown in /home/www/project/vendor/bingcool/swoolefy/score/Core/Sw
+[2018-04-16 14:13:27 *222.0]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught Error: Call to a member function setChannel() on null in /home/www/project/vendor/bingcool/swoolefy/score/Core/SwoolefyException.php:101
+Stack trace:
+#0 /home/www/project/vendor/bingcool/swoolefy/score/Core/SwoolefyException.php(31): Swoolefy\Core\SwoolefyException::shutHalt('Uncaught Error:...', 'error')
+#1 [internal function]: Swoolefy\Core\SwoolefyException::fatalError()
+#2 {main}
+  thrown in /home/www/project/vendor/bingcool/swoolefy/score/Core/Sw
+[2018-04-16 14:13:27 $215.0]	WARNING	swManager_check_exit_status: worker#1 abnormal exit, status=255, signal=0
+[2018-04-16 14:13:27 $215.0]	WARNING	swManager_check_exit_status: worker#0 abnormal exit, status=255, signal=0
+[2018-04-16 14:13:27 $215.0]	WARNING	swManager_check_exit_status: worker#7 abnormal exit, status=255, signal=0
+[2018-04-16 14:13:27 *224.2]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught Error: Call to a member function setChannel() on null in /home/www/project/vendor/bingcool/swoolefy/score/Core/SwoolefyException.php:101
+Stack trace:
+#0 /home/www/project/vendor/bingcool/swoolefy/score/Core/SwoolefyException.php(31): Swoolefy\Core\SwoolefyException::shutHalt('Uncaught Error:...', 'error')
+#1 [internal function]: Swoolefy\Core\SwoolefyException::fatalError()
+#2 {main}
+  thrown in /home/www/project/vendor/bingcool/swoolefy/score/Core/Sw
+[2018-04-16 14:13:27 $215.0]	WARNING	swManager_check_exit_status: worker#2 abnormal exit, status=255, signal=0
+[2018-04-16 14:13:27 ^218.4]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught Error: Call to a member function setChannel() on null in /home/www/project/vendor/bingcool/swoolefy/score/Core/SwoolefyException.php:101
+Stack trace:
+#0 /home/www/project/vendor/bingcool/swoolefy/score/Core/SwoolefyException.php(31): Swoolefy\Core\SwoolefyException::shutHalt('Uncaught Error:...', 'error')
+#1 [internal function]: Swoolefy\Core\SwoolefyException::fatalError()
+#2 {main}
+  thrown in /home/www/project/vendor/bingcool/swoolefy/score/Core/Sw
+[2018-04-16 14:13:27 $215.0]	WARNING	swManager_check_exit_status: worker#4 abnormal exit, status=255, signal=0
+[2018-04-16 14:13:27 ^217.3]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught Error: Call to a member function setChannel() on null in /home/www/project/vendor/bingcool/swoolefy/score/Core/SwoolefyException.php:101
+Stack trace:
+#0 /home/www/project/vendor/bingcool/swoolefy/score/Core/SwoolefyException.php(31): Swoolefy\Core\SwoolefyException::shutHalt('Uncaught Error:...', 'error')
+#1 [internal function]: Swoolefy\Core\SwoolefyException::fatalError()
+#2 {main}
+  thrown in /home/www/project/vendor/bingcool/swoolefy/score/Core/Sw
+[2018-04-16 14:13:27 $215.0]	WARNING	swManager_check_exit_status: worker#3 abnormal exit, status=255, signal=0
+[2018-04-16 14:13:28 ^226.5]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught Error: Call to a member function setChannel() on null in /home/www/project/vendor/bingcool/swoolefy/score/Core/SwoolefyException.php:101
+Stack trace:
+#0 /home/www/project/vendor/bingcool/swoolefy/score/Core/SwoolefyException.php(31): Swoolefy\Core\SwoolefyException::shutHalt('Uncaught Error:...', 'error')
+#1 [internal function]: Swoolefy\Core\SwoolefyException::fatalError()
+#2 {main}
+  thrown in /home/www/project/vendor/bingcool/swoolefy/score/Core/Sw
+[2018-04-16 14:13:28 ^225.6]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught Error: Call to a member function setChannel() on null in /home/www/project/vendor/bingcool/swoolefy/score/Core/SwoolefyException.php:101
+Stack trace:
+#0 /home/www/project/vendor/bingcool/swoolefy/score/Core/SwoolefyException.php(31): Swoolefy\Core\SwoolefyException::shutHalt('Uncaught Error:...', 'error')
+#1 [internal function]: Swoolefy\Core\SwoolefyException::fatalError()
+#2 {main}
+  thrown in /home/www/project/vendor/bingcool/swoolefy/score/Core/Sw
+[2018-04-16 14:13:28 ^229.7]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught Error: Call to a member function setChannel() on null in /home/www/project/vendor/bingcool/swoolefy/score/Core/SwoolefyException.php:101
+Stack trace:
+#0 /home/www/project/vendor/bingcool/swoolefy/score/Core/SwoolefyException.php(31): Swoolefy\Core\SwoolefyException::shutHalt('Uncaught Error:...', 'error')
+#1 [internal function]: Swoolefy\Core\SwoolefyException::fatalError()
+#2 {main}
+  thrown in /home/www/project/vendor/bingcool/swoolefy/score/Core/Sw
+[2018-04-16 14:13:28 $215.0]	WARNING	swManager_check_exit_status: worker#5 abnormal exit, status=255, signal=0
+[2018-04-16 14:13:28 $215.0]	WARNING	swManager_check_exit_status: worker#6 abnormal exit, status=255, signal=0
+[2018-04-16 14:13:28 *227.1]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught Error: Call to a member function setChannel() on null in /home/www/project/vendor/bingcool/swoolefy/score/Core/SwoolefyException.php:101
+Stack trace:
+#0 /home/www/project/vendor/bingcool/swoolefy/score/Core/SwoolefyException.php(31): Swoolefy\Core\SwoolefyException::shutHalt('Uncaught Error:...', 'error')
+#1 [internal function]: Swoolefy\Core\SwoolefyException::fatalError()
+#2 {main}
+  thrown in /home/www/project/vendor/bingcool/swoolefy/score/Core/Sw
+[2018-04-16 14:13:28 $215.0]	WARNING	swManager_check_exit_status: worker#7 abnormal exit, status=255, signal=0
+[2018-04-16 14:13:28 *228.0]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught Error: Call to a member function setChannel() on null in /home/www/project/vendor/bingcool/swoolefy/score/Core/SwoolefyException.php:101
+Stack trace:
+#0 /home/www/project/vendor/bingcool/swoolefy/score/Core/SwoolefyException.php(31): Swoolefy\Core\SwoolefyException::shutHalt('Uncaught Error:...', 'error')
+#1 [internal function]: Swoolefy\Core\SwoolefyException::fatalError()
+#2 {main}
+  thrown in /home/www/project/vendor/bingcool/swoolefy/score/Core/Sw
+[2018-04-16 14:13:28 ^231.4]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught Error: Call to a member function setChannel() on null in /home/www/project/vendor/bingcool/swoolefy/score/Core/SwoolefyException.php:101
+Stack trace:
+#0 /home/www/project/vendor/bingcool/swoolefy/score/Core/SwoolefyException.php(31): Swoolefy\Core\SwoolefyException::shutHalt('Uncaught Error:...', 'error')
+#1 [internal function]: Swoolefy\Core\SwoolefyException::fatalError()
+#2 {main}
+  thrown in /home/www/project/vendor/bingcool/swoolefy/score/Core/Sw
+[2018-04-16 14:13:28 $215.0]	WARNING	swManager_check_exit_status: worker#1 abnormal exit, status=255, signal=0
+[2018-04-16 14:13:28 $215.0]	WARNING	swManager_check_exit_status: worker#0 abnormal exit, status=255, signal=0
+[2018-04-16 14:13:28 ^232.3]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught Error: Call to a member function setChannel() on null in /home/www/project/vendor/bingcool/swoolefy/score/Core/SwoolefyException.php:101
+Stack trace:
+#0 /home/www/project/vendor/bingcool/swoolefy/score/Core/SwoolefyException.php(31): Swoolefy\Core\SwoolefyException::shutHalt('Uncaught Error:...', 'error')
+#1 [internal function]: Swoolefy\Core\SwoolefyException::fatalError()
+#2 {main}
+  thrown in /home/www/project/vendor/bingcool/swoolefy/score/Core/Sw
+[2018-04-16 14:13:28 $215.0]	WARNING	swManager_check_exit_status: worker#4 abnormal exit, status=255, signal=0
+[2018-04-16 14:13:28 *230.2]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught Error: Call to a member function setChannel() on null in /home/www/project/vendor/bingcool/swoolefy/score/Core/SwoolefyException.php:101
+Stack trace:
+#0 /home/www/project/vendor/bingcool/swoolefy/score/Core/SwoolefyException.php(31): Swoolefy\Core\SwoolefyException::shutHalt('Uncaught Error:...', 'error')
+#1 [internal function]: Swoolefy\Core\SwoolefyException::fatalError()
+#2 {main}
+  thrown in /home/www/project/vendor/bingcool/swoolefy/score/Core/Sw
+[2018-04-16 14:13:28 $215.0]	WARNING	swManager_check_exit_status: worker#3 abnormal exit, status=255, signal=0
+[2018-04-16 14:13:28 $215.0]	WARNING	swManager_check_exit_status: worker#2 abnormal exit, status=255, signal=0
+[2018-04-16 14:13:28 ^233.5]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught Error: Call to a member function setChannel() on null in /home/www/project/vendor/bingcool/swoolefy/score/Core/SwoolefyException.php:101
+Stack trace:
+#0 /home/www/project/vendor/bingcool/swoolefy/score/Core/SwoolefyException.php(31): Swoolefy\Core\SwoolefyException::shutHalt('Uncaught Error:...', 'error')
+#1 [internal function]: Swoolefy\Core\SwoolefyException::fatalError()
+#2 {main}
+  thrown in /home/www/project/vendor/bingcool/swoolefy/score/Core/Sw
+[2018-04-16 14:13:28 ^238.4]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught Error: Call to a member function setChannel() on null in /home/www/project/vendor/bingcool/swoolefy/score/Core/SwoolefyException.php:101
+Stack trace:
+#0 /home/www/project/vendor/bingcool/swoolefy/score/Core/SwoolefyException.php(31): Swoolefy\Core\SwoolefyException::shutHalt('Uncaught Error:...', 'error')
+#1 [internal function]: Swoolefy\Core\SwoolefyException::fatalError()
+#2 {main}
+  thrown in /home/www/project/vendor/bingcool/swoolefy/score/Core/Sw
+[2018-04-16 14:13:28 ^234.6]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught Error: Call to a member function setChannel() on null in /home/www/project/vendor/bingcool/swoolefy/score/Core/SwoolefyException.php:101
+Stack trace:
+#0 /home/www/project/vendor/bingcool/swoolefy/score/Core/SwoolefyException.php(31): Swoolefy\Core\SwoolefyException::shutHalt('Uncaught Error:...', 'error')
+#1 [internal function]: Swoolefy\Core\SwoolefyException::fatalError()
+#2 {main}
+  thrown in /home/www/project/vendor/bingcool/swoolefy/score/Core/Sw
+[2018-04-16 14:13:28 *236.1]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught Error: Call to a member function setChannel() on null in /home/www/project/vendor/bingcool/swoolefy/score/Core/SwoolefyException.php:101
+Stack trace:
+#0 /home/www/project/vendor/bingcool/swoolefy/score/Core/SwoolefyException.php(31): Swoolefy\Core\SwoolefyException::shutHalt('Uncaught Error:...', 'error')
+#1 [internal function]: Swoolefy\Core\SwoolefyException::fatalError()
+#2 {main}
+  thrown in /home/www/project/vendor/bingcool/swoolefy/score/Core/Sw
+[2018-04-16 14:13:28 *237.0]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught Error: Call to a member function setChannel() on null in /home/www/project/vendor/bingcool/swoolefy/score/Core/SwoolefyException.php:101
+Stack trace:
+#0 /home/www/project/vendor/bingcool/swoolefy/score/Core/SwoolefyException.php(31): Swoolefy\Core\SwoolefyException::shutHalt('Uncaught Error:...', 'error')
+#1 [internal function]: Swoolefy\Core\SwoolefyException::fatalError()
+#2 {main}
+  thrown in /home/www/project/vendor/bingcool/swoolefy/score/Core/Sw
+[2018-04-16 14:13:28 ^235.7]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught Error: Call to a member function setChannel() on null in /home/www/project/vendor/bingcool/swoolefy/score/Core/SwoolefyException.php:101
+Stack trace:
+#0 /home/www/project/vendor/bingcool/swoolefy/score/Core/SwoolefyException.php(31): Swoolefy\Core\SwoolefyException::shutHalt('Uncaught Error:...', 'error')
+#1 [internal function]: Swoolefy\Core\SwoolefyException::fatalError()
+#2 {main}
+  thrown in /home/www/project/vendor/bingcool/swoolefy/score/Core/Sw
+[2018-04-16 14:13:28 $215.0]	WARNING	swManager_check_exit_status: worker#5 abnormal exit, status=255, signal=0
+[2018-04-16 14:13:28 $215.0]	WARNING	swManager_check_exit_status: worker#6 abnormal exit, status=255, signal=0
+[2018-04-16 14:13:28 $215.0]	WARNING	swManager_check_exit_status: worker#1 abnormal exit, status=255, signal=0
+[2018-04-16 14:13:29 $215.0]	WARNING	swManager_check_exit_status: worker#0 abnormal exit, status=255, signal=0
+[2018-04-16 14:13:29 $215.0]	WARNING	swManager_check_exit_status: worker#4 abnormal exit, status=255, signal=0
+[2018-04-16 14:13:29 $215.0]	WARNING	swManager_check_exit_status: worker#7 abnormal exit, status=255, signal=0
+[2018-04-16 14:13:29 *240.2]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught Error: Call to a member function setChannel() on null in /home/www/project/vendor/bingcool/swoolefy/score/Core/SwoolefyException.php:101
+Stack trace:
+#0 /home/www/project/vendor/bingcool/swoolefy/score/Core/SwoolefyException.php(31): Swoolefy\Core\SwoolefyException::shutHalt('Uncaught Error:...', 'error')
+#1 [internal function]: Swoolefy\Core\SwoolefyException::fatalError()
+#2 {main}
+  thrown in /home/www/project/vendor/bingcool/swoolefy/score/Core/Sw
+[2018-04-16 14:13:29 $215.0]	WARNING	swManager_check_exit_status: worker#2 abnormal exit, status=255, signal=0
+[2018-04-16 14:13:29 ^239.3]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught Error: Call to a member function setChannel() on null in /home/www/project/vendor/bingcool/swoolefy/score/Core/SwoolefyException.php:101
+Stack trace:
+#0 /home/www/project/vendor/bingcool/swoolefy/score/Core/SwoolefyException.php(31): Swoolefy\Core\SwoolefyException::shutHalt('Uncaught Error:...', 'error')
+#1 [internal function]: Swoolefy\Core\SwoolefyException::fatalError()
+#2 {main}
+  thrown in /home/www/project/vendor/bingcool/swoolefy/score/Core/Sw
+[2018-04-16 14:13:29 $215.0]	WARNING	swManager_check_exit_status: worker#3 abnormal exit, status=255, signal=0
+[2018-04-16 14:13:29 ^241.5]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught Error: Call to a member function setChannel() on null in /home/www/project/vendor/bingcool/swoolefy/score/Core/SwoolefyException.php:101
+Stack trace:
+#0 /home/www/project/vendor/bingcool/swoolefy/score/Core/SwoolefyException.php(31): Swoolefy\Core\SwoolefyException::shutHalt('Uncaught Error:...', 'error')
+#1 [internal function]: Swoolefy\Core\SwoolefyException::fatalError()
+#2 {main}
+  thrown in /home/www/project/vendor/bingcool/swoolefy/score/Core/Sw
+[2018-04-16 14:13:29 *244.0]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught Error: Call to a member function setChannel() on null in /home/www/project/vendor/bingcool/swoolefy/score/Core/SwoolefyException.php:101
+Stack trace:
+#0 /home/www/project/vendor/bingcool/swoolefy/score/Core/SwoolefyException.php(31): Swoolefy\Core\SwoolefyException::shutHalt('Uncaught Error:...', 'error')
+#1 [internal function]: Swoolefy\Core\SwoolefyException::fatalError()
+#2 {main}
+  thrown in /home/www/project/vendor/bingcool/swoolefy/score/Core/Sw
+[2018-04-16 14:13:29 ^245.4]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught Error: Call to a member function setChannel() on null in /home/www/project/vendor/bingcool/swoolefy/score/Core/SwoolefyException.php:101
+Stack trace:
+#0 /home/www/project/vendor/bingcool/swoolefy/score/Core/SwoolefyException.php(31): Swoolefy\Core\SwoolefyException::shutHalt('Uncaught Error:...', 'error')
+#1 [internal function]: Swoolefy\Core\SwoolefyException::fatalError()
+#2 {main}
+  thrown in /home/www/project/vendor/bingcool/swoolefy/score/Core/Sw
+[2018-04-16 14:13:29 $215.0]	WARNING	swManager_check_exit_status: worker#4 abnormal exit, status=255, signal=0
+[2018-04-16 14:13:29 ^246.7]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught Error: Call to a member function setChannel() on null in /home/www/project/vendor/bingcool/swoolefy/score/Core/SwoolefyException.php:101
+Stack trace:
+#0 /home/www/project/vendor/bingcool/swoolefy/score/Core/SwoolefyException.php(31): Swoolefy\Core\SwoolefyException::shutHalt('Uncaught Error:...', 'error')
+#1 [internal function]: Swoolefy\Core\SwoolefyException::fatalError()
+#2 {main}
+  thrown in /home/www/project/vendor/bingcool/swoolefy/score/Core/Sw
+[2018-04-16 14:13:29 ^242.6]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught Error: Call to a member function setChannel() on null in /home/www/project/vendor/bingcool/swoolefy/score/Core/SwoolefyException.php:101
+Stack trace:
+#0 /home/www/project/vendor/bingcool/swoolefy/score/Core/SwoolefyException.php(31): Swoolefy\Core\SwoolefyException::shutHalt('Uncaught Error:...', 'error')
+#1 [internal function]: Swoolefy\Core\SwoolefyException::fatalError()
+#2 {main}
+  thrown in /home/www/project/vendor/bingcool/swoolefy/score/Core/Sw
+[2018-04-16 14:13:29 $215.0]	WARNING	swManager_check_exit_status: worker#0 abnormal exit, status=255, signal=0
+[2018-04-16 14:13:29 $215.0]	WARNING	swManager_check_exit_status: worker#5 abnormal exit, status=255, signal=0
+[2018-04-16 14:13:29 $215.0]	WARNING	swManager_check_exit_status: worker#6 abnormal exit, status=255, signal=0
+[2018-04-16 14:13:29 *247.2]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught Error: Call to a member function setChannel() on null in /home/www/project/vendor/bingcool/swoolefy/score/Core/SwoolefyException.php:101
+Stack trace:
+#0 /home/www/project/vendor/bingcool/swoolefy/score/Core/SwoolefyException.php(31): Swoolefy\Core\SwoolefyException::shutHalt('Uncaught Error:...', 'error')
+#1 [internal function]: Swoolefy\Core\SwoolefyException::fatalError()
+#2 {main}
+  thrown in /home/www/project/vendor/bingcool/swoolefy/score/Core/Sw
+[2018-04-16 14:13:29 $215.0]	WARNING	swManager_check_exit_status: worker#7 abnormal exit, status=255, signal=0
+[2018-04-16 14:13:29 *243.1]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught Error: Call to a member function setChannel() on null in /home/www/project/vendor/bingcool/swoolefy/score/Core/SwoolefyException.php:101
+Stack trace:
+#0 /home/www/project/vendor/bingcool/swoolefy/score/Core/SwoolefyException.php(31): Swoolefy\Core\SwoolefyException::shutHalt('Uncaught Error:...', 'error')
+#1 [internal function]: Swoolefy\Core\SwoolefyException::fatalError()
+#2 {main}
+  thrown in /home/www/project/vendor/bingcool/swoolefy/score/Core/Sw
+[2018-04-16 14:13:29 $215.0]	WARNING	swManager_check_exit_status: worker#1 abnormal exit, status=255, signal=0
+[2018-04-16 14:13:29 $215.0]	WARNING	swManager_check_exit_status: worker#2 abnormal exit, status=255, signal=0
+[2018-04-16 14:13:29 ^248.3]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught Error: Call to a member function setChannel() on null in /home/www/project/vendor/bingcool/swoolefy/score/Core/SwoolefyException.php:101
+Stack trace:
+#0 /home/www/project/vendor/bingcool/swoolefy/score/Core/SwoolefyException.php(31): Swoolefy\Core\SwoolefyException::shutHalt('Uncaught Error:...', 'error')
+#1 [internal function]: Swoolefy\Core\SwoolefyException::fatalError()
+#2 {main}
+  thrown in /home/www/project/vendor/bingcool/swoolefy/score/Core/Sw
+[2018-04-16 14:13:29 $215.0]	WARNING	swManager_check_exit_status: worker#3 abnormal exit, status=255, signal=0
+[2018-04-16 14:13:30 ^252.6]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught Error: Call to a member function setChannel() on null in /home/www/project/vendor/bingcool/swoolefy/score/Core/SwoolefyException.php:101
+Stack trace:
+#0 /home/www/project/vendor/bingcool/swoolefy/score/Core/SwoolefyException.php(31): Swoolefy\Core\SwoolefyException::shutHalt('Uncaught Error:...', 'error')
+#1 [internal function]: Swoolefy\Core\SwoolefyException::fatalError()
+#2 {main}
+  thrown in /home/www/project/vendor/bingcool/swoolefy/score/Core/Sw
+[2018-04-16 14:13:30 *250.0]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught Error: Call to a member function setChannel() on null in /home/www/project/vendor/bingcool/swoolefy/score/Core/SwoolefyException.php:101
+Stack trace:
+#0 /home/www/project/vendor/bingcool/swoolefy/score/Core/SwoolefyException.php(31): Swoolefy\Core\SwoolefyException::shutHalt('Uncaught Error:...', 'error')
+#1 [internal function]: Swoolefy\Core\SwoolefyException::fatalError()
+#2 {main}
+  thrown in /home/www/project/vendor/bingcool/swoolefy/score/Core/Sw
+[2018-04-16 14:13:30 ^253.7]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught Error: Call to a member function setChannel() on null in /home/www/project/vendor/bingcool/swoolefy/score/Core/SwoolefyException.php:101
+Stack trace:
+#0 /home/www/project/vendor/bingcool/swoolefy/score/Core/SwoolefyException.php(31): Swoolefy\Core\SwoolefyException::shutHalt('Uncaught Error:...', 'error')
+#1 [internal function]: Swoolefy\Core\SwoolefyException::fatalError()
+#2 {main}
+  thrown in /home/www/project/vendor/bingcool/swoolefy/score/Core/Sw
+[2018-04-16 14:13:30 *254.1]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught Error: Call to a member function setChannel() on null in /home/www/project/vendor/bingcool/swoolefy/score/Core/SwoolefyException.php:101
+Stack trace:
+#0 /home/www/project/vendor/bingcool/swoolefy/score/Core/SwoolefyException.php(31): Swoolefy\Core\SwoolefyException::shutHalt('Uncaught Error:...', 'error')
+#1 [internal function]: Swoolefy\Core\SwoolefyException::fatalError()
+#2 {main}
+  thrown in /home/www/project/vendor/bingcool/swoolefy/score/Core/Sw
+[2018-04-16 14:13:30 $215.0]	WARNING	swManager_check_exit_status: worker#7 abnormal exit, status=255, signal=0
+[2018-04-16 14:13:30 $215.0]	WARNING	swManager_check_exit_status: worker#6 abnormal exit, status=255, signal=0
+[2018-04-16 14:13:30 ^251.5]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught Error: Call to a member function setChannel() on null in /home/www/project/vendor/bingcool/swoolefy/score/Core/SwoolefyException.php:101
+Stack trace:
+#0 /home/www/project/vendor/bingcool/swoolefy/score/Core/SwoolefyException.php(31): Swoolefy\Core\SwoolefyException::shutHalt('Uncaught Error:...', 'error')
+#1 [internal function]: Swoolefy\Core\SwoolefyException::fatalError()
+#2 {main}
+  thrown in /home/www/project/vendor/bingcool/swoolefy/score/Core/Sw
+[2018-04-16 14:13:30 ^249.4]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught Error: Call to a member function setChannel() on null in /home/www/project/vendor/bingcool/swoolefy/score/Core/SwoolefyException.php:101
+Stack trace:
+#0 /home/www/project/vendor/bingcool/swoolefy/score/Core/SwoolefyException.php(31): Swoolefy\Core\SwoolefyException::shutHalt('Uncaught Error:...', 'error')
+#1 [internal function]: Swoolefy\Core\SwoolefyException::fatalError()
+#2 {main}
+  thrown in /home/www/project/vendor/bingcool/swoolefy/score/Core/Sw
+[2018-04-16 14:13:30 $215.0]	WARNING	swManager_check_exit_status: worker#1 abnormal exit, status=255, signal=0
+[2018-04-16 14:13:30 $215.0]	WARNING	swManager_check_exit_status: worker#5 abnormal exit, status=255, signal=0
+[2018-04-16 14:13:30 $215.0]	WARNING	swManager_check_exit_status: worker#0 abnormal exit, status=255, signal=0
+[2018-04-16 14:13:30 $215.0]	WARNING	swManager_check_exit_status: worker#4 abnormal exit, status=255, signal=0
+[2018-04-16 14:13:30 *255.2]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught Error: Call to a member function setChannel() on null in /home/www/project/vendor/bingcool/swoolefy/score/Core/SwoolefyException.php:101
+Stack trace:
+#0 /home/www/project/vendor/bingcool/swoolefy/score/Core/SwoolefyException.php(31): Swoolefy\Core\SwoolefyException::shutHalt('Uncaught Error:...', 'error')
+#1 [internal function]: Swoolefy\Core\SwoolefyException::fatalError()
+#2 {main}
+  thrown in /home/www/project/vendor/bingcool/swoolefy/score/Core/Sw
+[2018-04-16 14:13:30 $215.0]	WARNING	swManager_check_exit_status: worker#2 abnormal exit, status=255, signal=0
+[2018-04-16 14:13:30 ^256.3]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught Error: Call to a member function setChannel() on null in /home/www/project/vendor/bingcool/swoolefy/score/Core/SwoolefyException.php:101
+Stack trace:
+#0 /home/www/project/vendor/bingcool/swoolefy/score/Core/SwoolefyException.php(31): Swoolefy\Core\SwoolefyException::shutHalt('Uncaught Error:...', 'error')
+#1 [internal function]: Swoolefy\Core\SwoolefyException::fatalError()
+#2 {main}
+  thrown in /home/www/project/vendor/bingcool/swoolefy/score/Core/Sw
+[2018-04-16 14:13:30 $215.0]	WARNING	swManager_check_exit_status: worker#3 abnormal exit, status=255, signal=0
+[2018-04-16 14:13:30 *259.1]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught Error: Call to a member function setChannel() on null in /home/www/project/vendor/bingcool/swoolefy/score/Core/SwoolefyException.php:101
+Stack trace:
+#0 /home/www/project/vendor/bingcool/swoolefy/score/Core/SwoolefyException.php(31): Swoolefy\Core\SwoolefyException::shutHalt('Uncaught Error:...', 'error')
+#1 [internal function]: Swoolefy\Core\SwoolefyException::fatalError()
+#2 {main}
+  thrown in /home/www/project/vendor/bingcool/swoolefy/score/Core/Sw
+[2018-04-16 14:13:30 ^258.6]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught Error: Call to a member function setChannel() on null in /home/www/project/vendor/bingcool/swoolefy/score/Core/SwoolefyException.php:101
+Stack trace:
+#0 /home/www/project/vendor/bingcool/swoolefy/score/Core/SwoolefyException.php(31): Swoolefy\Core\SwoolefyException::shutHalt('Uncaught Error:...', 'error')
+#1 [internal function]: Swoolefy\Core\SwoolefyException::fatalError()
+#2 {main}
+  thrown in /home/www/project/vendor/bingcool/swoolefy/score/Core/Sw
+[2018-04-16 14:13:30 ^257.7]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught Error: Call to a member function setChannel() on null in /home/www/project/vendor/bingcool/swoolefy/score/Core/SwoolefyException.php:101
+Stack trace:
+#0 /home/www/project/vendor/bingcool/swoolefy/score/Core/SwoolefyException.php(31): Swoolefy\Core\SwoolefyException::shutHalt('Uncaught Error:...', 'error')
+#1 [internal function]: Swoolefy\Core\SwoolefyException::fatalError()
+#2 {main}
+  thrown in /home/www/project/vendor/bingcool/swoolefy/score/Core/Sw
+[2018-04-16 14:13:30 ^260.5]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught Error: Call to a member function setChannel() on null in /home/www/project/vendor/bingcool/swoolefy/score/Core/SwoolefyException.php:101
+Stack trace:
+#0 /home/www/project/vendor/bingcool/swoolefy/score/Core/SwoolefyException.php(31): Swoolefy\Core\SwoolefyException::shutHalt('Uncaught Error:...', 'error')
+#1 [internal function]: Swoolefy\Core\SwoolefyException::fatalError()
+#2 {main}
+  thrown in /home/www/project/vendor/bingcool/swoolefy/score/Core/Sw
+[2018-04-16 14:13:30 $215.0]	WARNING	swManager_check_exit_status: worker#1 abnormal exit, status=255, signal=0
+[2018-04-16 14:13:30 $215.0]	WARNING	swManager_check_exit_status: worker#5 abnormal exit, status=255, signal=0
+[2018-04-16 14:13:30 $215.0]	WARNING	swManager_check_exit_status: worker#6 abnormal exit, status=255, signal=0
+[2018-04-16 14:13:30 *261.0]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught Error: Call to a member function setChannel() on null in /home/www/project/vendor/bingcool/swoolefy/score/Core/SwoolefyException.php:101
+Stack trace:
+#0 /home/www/project/vendor/bingcool/swoolefy/score/Core/SwoolefyException.php(31): Swoolefy\Core\SwoolefyException::shutHalt('Uncaught Error:...', 'error')
+#1 [internal function]: Swoolefy\Core\SwoolefyException::fatalError()
+#2 {main}
+  thrown in /home/www/project/vendor/bingcool/swoolefy/score/Core/Sw
+[2018-04-16 14:13:30 $215.0]	WARNING	swManager_check_exit_status: worker#7 abnormal exit, status=255, signal=0
+[2018-04-16 14:13:30 $215.0]	WARNING	swManager_check_exit_status: worker#0 abnormal exit, status=255, signal=0
+[2018-04-16 14:13:30 ^262.4]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught Error: Call to a member function setChannel() on null in /home/www/project/vendor/bingcool/swoolefy/score/Core/SwoolefyException.php:101
+Stack trace:
+#0 /home/www/project/vendor/bingcool/swoolefy/score/Core/SwoolefyException.php(31): Swoolefy\Core\SwoolefyException::shutHalt('Uncaught Error:...', 'error')
+#1 [internal function]: Swoolefy\Core\SwoolefyException::fatalError()
+#2 {main}
+  thrown in /home/www/project/vendor/bingcool/swoolefy/score/Core/Sw
+[2018-04-16 14:13:30 *263.2]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught Error: Call to a member function setChannel() on null in /home/www/project/vendor/bingcool/swoolefy/score/Core/SwoolefyException.php:101
+Stack trace:
+#0 /home/www/project/vendor/bingcool/swoolefy/score/Core/SwoolefyException.php(31): Swoolefy\Core\SwoolefyException::shutHalt('Uncaught Error:...', 'error')
+#1 [internal function]: Swoolefy\Core\SwoolefyException::fatalError()
+#2 {main}
+  thrown in /home/www/project/vendor/bingcool/swoolefy/score/Core/Sw
+[2018-04-16 14:13:30 $215.0]	WARNING	swManager_check_exit_status: worker#2 abnormal exit, status=255, signal=0
+[2018-04-16 14:13:30 $215.0]	WARNING	swManager_check_exit_status: worker#4 abnormal exit, status=255, signal=0
+[2018-04-16 14:13:30 ^264.3]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught Error: Call to a member function setChannel() on null in /home/www/project/vendor/bingcool/swoolefy/score/Core/SwoolefyException.php:101
+Stack trace:
+#0 /home/www/project/vendor/bingcool/swoolefy/score/Core/SwoolefyException.php(31): Swoolefy\Core\SwoolefyException::shutHalt('Uncaught Error:...', 'error')
+#1 [internal function]: Swoolefy\Core\SwoolefyException::fatalError()
+#2 {main}
+  thrown in /home/www/project/vendor/bingcool/swoolefy/score/Core/Sw
+[2018-04-16 14:13:30 $215.0]	WARNING	swManager_check_exit_status: worker#3 abnormal exit, status=255, signal=0
+[2018-04-16 14:13:31 ^266.5]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught Error: Call to a member function setChannel() on null in /home/www/project/vendor/bingcool/swoolefy/score/Core/SwoolefyException.php:101
+Stack trace:
+#0 /home/www/project/vendor/bingcool/swoolefy/score/Core/SwoolefyException.php(31): Swoolefy\Core\SwoolefyException::shutHalt('Uncaught Error:...', 'error')
+#1 [internal function]: Swoolefy\Core\SwoolefyException::fatalError()
+#2 {main}
+  thrown in /home/www/project/vendor/bingcool/swoolefy/score/Core/Sw
+[2018-04-19 15:09:45 ^834.3]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught Error: Class 'App\Task\AsyncTask' not found in /home/www/project/vendor/bingcool/swoolefy/score/Rpc/RpcDispatch.php:60
+Stack trace:
+#0 /home/www/project/vendor/bingcool/swoolefy/score/Websocket/WebsocketHander.php(70): Swoolefy\Rpc\RpcDispatch->dispatch()
+#1 /home/www/project/vendor/bingcool/swoolefy/score/Websocket/WebsocketEventServer.php(97): Swoolefy\Websocket\WebsocketHander->run(1, Array)
+#2 /home/www/project/vendor/bingcool/swoolefy/score/Webso
+[2018-04-19 15:09:45 $832.0]	WARNING	swManager_check_exit_status: worker#3 abnormal exit, status=255, signal=0
+[2018-04-19 15:09:46 ^835.4]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught Error: Class 'App\Task\AsyncTask' not found in /home/www/project/vendor/bingcool/swoolefy/score/Rpc/RpcDispatch.php:60
+Stack trace:
+#0 /home/www/project/vendor/bingcool/swoolefy/score/Websocket/WebsocketHander.php(70): Swoolefy\Rpc\RpcDispatch->dispatch()
+#1 /home/www/project/vendor/bingcool/swoolefy/score/Websocket/WebsocketEventServer.php(97): Swoolefy\Websocket\WebsocketHander->run(2, Array)
+#2 /home/www/project/vendor/bingcool/swoolefy/score/Webso
+[2018-04-19 15:09:46 $832.0]	WARNING	swManager_check_exit_status: worker#4 abnormal exit, status=255, signal=0
+[2018-04-19 15:09:49 ^836.5]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught Error: Class 'App\Task\AsyncTask' not found in /home/www/project/vendor/bingcool/swoolefy/score/Rpc/RpcDispatch.php:60
+Stack trace:
+#0 /home/www/project/vendor/bingcool/swoolefy/score/Websocket/WebsocketHander.php(70): Swoolefy\Rpc\RpcDispatch->dispatch()
+#1 /home/www/project/vendor/bingcool/swoolefy/score/Websocket/WebsocketEventServer.php(97): Swoolefy\Websocket\WebsocketHander->run(2, Array)
+#2 /home/www/project/vendor/bingcool/swoolefy/score/Webso
+[2018-04-19 15:09:49 $832.0]	WARNING	swManager_check_exit_status: worker#5 abnormal exit, status=255, signal=0

@@ -12,12 +12,21 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/bingcool/swoolefy.git",
+<<<<<<< HEAD
                 "reference": "77fea42087d84a4ef0a26b6deb07e77309cbdbac"
             },
             "dist": {
                 "type": "zip",
                 "url": "https://files.phpcomposer.com/files/bingcool/swoolefy/77fea42087d84a4ef0a26b6deb07e77309cbdbac.zip",
                 "reference": "77fea42087d84a4ef0a26b6deb07e77309cbdbac",
+=======
+                "reference": "391e5703a017c7018af8fdae8e336b87c72ec5dd"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://files.phpcomposer.com/files/bingcool/swoolefy/391e5703a017c7018af8fdae8e336b87c72ec5dd.zip",
+                "reference": "391e5703a017c7018af8fdae8e336b87c72ec5dd",
+>>>>>>> 88c2d13e54ff1283f77aa2bbd36fa5f10c69147b
                 "shasum": ""
             },
             "require": {
@@ -54,7 +63,11 @@
                 "swoole",
                 "swoolefy"
             ],
+<<<<<<< HEAD
             "time": "2018-04-20T08:27:51+00:00"
+=======
+            "time": "2018-04-19T05:58:45+00:00"
+>>>>>>> 88c2d13e54ff1283f77aa2bbd36fa5f10c69147b
         },
         {
             "name": "bingcool/swoolefy-orm",
