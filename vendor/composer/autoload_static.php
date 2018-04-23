@@ -10,8 +10,7 @@ class ComposerStaticInitbd4d98a5310e05071d980cdf325ed228
         '2c102faa651ef8ea5874edb585946bce' => __DIR__ . '/..' . '/swiftmailer/swiftmailer/lib/swift_required.php',
         '0e6d7bf4a5811bfa5cf40c5ccd6fae6a' => __DIR__ . '/..' . '/symfony/polyfill-mbstring/bootstrap.php',
         'e675755c435e9e82693af9ebebbaa735' => __DIR__ . '/..' . '/bingcool/swoolefy-orm/src/config.php',
-        '9c9a81795c809f4710dd20bec1e349df' => __DIR__ . '/..' . '/joshcam/mysqli-database-class/MysqliDb.php',
-        '94df122b6b32ca0be78d482c26e5ce00' => __DIR__ . '/..' . '/joshcam/mysqli-database-class/dbObject.php',
+        '3a37ebac017bc098e9a86b35401e7a68' => __DIR__ . '/..' . '/mongodb/mongodb/src/functions.php',
     );
 
     public static $prefixLengthsPsr4 = array (
@@ -33,6 +32,7 @@ class ComposerStaticInitbd4d98a5310e05071d980cdf325ed228
         'M' => 
         array (
             'Monolog\\' => 8,
+            'MongoDB\\' => 8,
         ),
         'E' => 
         array (
@@ -72,6 +72,10 @@ class ComposerStaticInitbd4d98a5310e05071d980cdf325ed228
         'Monolog\\' => 
         array (
             0 => __DIR__ . '/..' . '/monolog/monolog/src/Monolog',
+        ),
+        'MongoDB\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/mongodb/mongodb/src',
         ),
         'Egulias\\EmailValidator\\' => 
         array (
