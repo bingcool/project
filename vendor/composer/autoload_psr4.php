@@ -6,6 +6,8 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
+    'zipkin\\' => array($vendorDir . '/bingcool/swoolefy-zipkin/src'),
+    'whitemerry\\phpkin\\' => array($vendorDir . '/whitemerry/phpkin/src'),
     'think\\' => array($vendorDir . '/bingcool/swoolefy-orm/src'),
     'Symfony\\Polyfill\\Mbstring\\' => array($vendorDir . '/symfony/polyfill-mbstring'),
     'Symfony\\Component\\Translation\\' => array($vendorDir . '/symfony/translation'),
@@ -13,7 +15,6 @@ return array(
     'Psr\\Log\\' => array($vendorDir . '/psr/log/Psr/Log'),
     'Predis\\' => array($vendorDir . '/predis/predis/src'),
     'Monolog\\' => array($vendorDir . '/monolog/monolog/src/Monolog'),
-    'MongoDB\\' => array($vendorDir . '/mongodb/mongodb/src'),
     'Egulias\\EmailValidator\\' => array($vendorDir . '/egulias/email-validator/EmailValidator'),
     'Doctrine\\Common\\Lexer\\' => array($vendorDir . '/doctrine/lexer/lib/Doctrine/Common/Lexer'),
     '' => array($vendorDir . '/nesbot/carbon/src'),

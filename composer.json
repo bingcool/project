@@ -3,7 +3,9 @@
     "type": "project",
     "minimum-stability": "dev",
     "require": {
-    	"bingcool/swoolefy": "dev-master"
+    	"bingcool/swoolefy": "*",
+        "whitemerry/phpkin": "dev-master",
+        "bingcool/swoolefy-zipkin": "dev-master"
     },
     "repositories": {
         "packagist": {

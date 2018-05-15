@@ -8,7 +8,7 @@ return [
 	'worker_process_name' => 'php-http-worker',
 	'www_user' => 'www',
 	'host' => '0.0.0.0',
-	'port' => '9502',
+	'port' => '9507',
 	'time_zone' => 'Asia/Shanghai',
 	'swoole_version' => '1.9.17', //要求swoole的最低版本
 	'swoole_process_mode' => 'nnn',//swoole的进程模式设置

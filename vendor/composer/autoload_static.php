@@ -4,16 +4,24 @@
 
 namespace Composer\Autoload;
 
-class ComposerStaticInit23d141131f5bb2e2a4960de6c3a78ba7
+class ComposerStaticInita1cfc3112dd0221128c43210e949f47f
 {
     public static $files = array (
         '2c102faa651ef8ea5874edb585946bce' => __DIR__ . '/..' . '/swiftmailer/swiftmailer/lib/swift_required.php',
         '0e6d7bf4a5811bfa5cf40c5ccd6fae6a' => __DIR__ . '/..' . '/symfony/polyfill-mbstring/bootstrap.php',
         'e675755c435e9e82693af9ebebbaa735' => __DIR__ . '/..' . '/bingcool/swoolefy-orm/src/config.php',
-        '3a37ebac017bc098e9a86b35401e7a68' => __DIR__ . '/..' . '/mongodb/mongodb/src/functions.php',
+        'd65a7b732574be2e37fbdc7082a19f37' => __DIR__ . '/..' . '/whitemerry/phpkin/src/functions.php',
     );
 
     public static $prefixLengthsPsr4 = array (
+        'z' => 
+        array (
+            'zipkin\\' => 7,
+        ),
+        'w' => 
+        array (
+            'whitemerry\\phpkin\\' => 18,
+        ),
         't' => 
         array (
             'think\\' => 6,
@@ -32,7 +40,6 @@ class ComposerStaticInit23d141131f5bb2e2a4960de6c3a78ba7
         'M' => 
         array (
             'Monolog\\' => 8,
-            'MongoDB\\' => 8,
         ),
         'E' => 
         array (
@@ -45,6 +52,14 @@ class ComposerStaticInit23d141131f5bb2e2a4960de6c3a78ba7
     );
 
     public static $prefixDirsPsr4 = array (
+        'zipkin\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/bingcool/swoolefy-zipkin/src',
+        ),
+        'whitemerry\\phpkin\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/whitemerry/phpkin/src',
+        ),
         'think\\' => 
         array (
             0 => __DIR__ . '/..' . '/bingcool/swoolefy-orm/src',
@@ -72,10 +87,6 @@ class ComposerStaticInit23d141131f5bb2e2a4960de6c3a78ba7
         'Monolog\\' => 
         array (
             0 => __DIR__ . '/..' . '/monolog/monolog/src/Monolog',
-        ),
-        'MongoDB\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/mongodb/mongodb/src',
         ),
         'Egulias\\EmailValidator\\' => 
         array (
@@ -264,10 +275,10 @@ class ComposerStaticInit23d141131f5bb2e2a4960de6c3a78ba7
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
-            $loader->prefixLengthsPsr4 = ComposerStaticInit23d141131f5bb2e2a4960de6c3a78ba7::$prefixLengthsPsr4;
-            $loader->prefixDirsPsr4 = ComposerStaticInit23d141131f5bb2e2a4960de6c3a78ba7::$prefixDirsPsr4;
-            $loader->fallbackDirsPsr4 = ComposerStaticInit23d141131f5bb2e2a4960de6c3a78ba7::$fallbackDirsPsr4;
-            $loader->classMap = ComposerStaticInit23d141131f5bb2e2a4960de6c3a78ba7::$classMap;
+            $loader->prefixLengthsPsr4 = ComposerStaticInita1cfc3112dd0221128c43210e949f47f::$prefixLengthsPsr4;
+            $loader->prefixDirsPsr4 = ComposerStaticInita1cfc3112dd0221128c43210e949f47f::$prefixDirsPsr4;
+            $loader->fallbackDirsPsr4 = ComposerStaticInita1cfc3112dd0221128c43210e949f47f::$fallbackDirsPsr4;
+            $loader->classMap = ComposerStaticInita1cfc3112dd0221128c43210e949f47f::$classMap;
 
         }, null, ClassLoader::class);
     }

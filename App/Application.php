@@ -1,6 +1,8 @@
 <?php
 namespace App;
 
+use zipkin\ZipkinHander;
+
 class Application implements \Swoolefy\Core\AppInterface{
 	// 初始化配置
 	public static function init() {
@@ -38,6 +40,18 @@ class Application implements \Swoolefy\Core\AppInterface{
 		// 上线必须设置为false
 		defined('SW_DEBUG') or define('SW_DEBUG', true);
 		defined('SW_ENV') or define('SW_ENV', 'dev');
+
+		// 设置跟踪服务
+		$zipkin = ZipkinHander::getInstance('http://192.168.99.102', '9503', true, ['header'=>'Content-type: application/x-www-form-urlencoded'], '/api/V1/span');
+
+		$zipkin->setEndpoint('swoolefy project service1', '192.168.99.102', 9507);
+
+		// 如果是根span,也就是后端
+		$zipkin->setTracer($_SERVER['PATH_INFO'], true);
+		// 注册服务
+		\Swoolefy\Core\Hook::addHook(\Swoolefy\Core\Hook::HOOK_AFTER_REQUEST, function() {
+			\zipkin\ZipkinHander::getInstance()->trace(true);
+		}, 0);
 	}
 }
 
