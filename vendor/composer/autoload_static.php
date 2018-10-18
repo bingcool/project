@@ -4,12 +4,14 @@
 
 namespace Composer\Autoload;
 
-class ComposerStaticInita1cfc3112dd0221128c43210e949f47f
+class ComposerStaticInitf41ed171c26d93973518d0a32a067b3d
 {
     public static $files = array (
         '2c102faa651ef8ea5874edb585946bce' => __DIR__ . '/..' . '/swiftmailer/swiftmailer/lib/swift_required.php',
         '0e6d7bf4a5811bfa5cf40c5ccd6fae6a' => __DIR__ . '/..' . '/symfony/polyfill-mbstring/bootstrap.php',
+        '045cd5d476702c3529ef3e1b9f615e70' => __DIR__ . '/..' . '/swlib/http/src/functions.php',
         'e675755c435e9e82693af9ebebbaa735' => __DIR__ . '/..' . '/bingcool/swoolefy-orm/src/config.php',
+        '3a6b4a1bc7c69c0620b4ef88fb5d27d0' => __DIR__ . '/..' . '/swlib/saber/src/include/functions.php',
         'd65a7b732574be2e37fbdc7082a19f37' => __DIR__ . '/..' . '/whitemerry/phpkin/src/functions.php',
     );
 
@@ -29,12 +31,17 @@ class ComposerStaticInita1cfc3112dd0221128c43210e949f47f
         'S' => 
         array (
             'Symfony\\Polyfill\\Mbstring\\' => 26,
+            'Symfony\\Contracts\\' => 18,
             'Symfony\\Component\\Translation\\' => 30,
             'Swoolefy\\' => 9,
+            'Swlib\\Util\\' => 11,
+            'Swlib\\Saber\\' => 12,
+            'Swlib\\Http\\' => 11,
         ),
         'P' => 
         array (
             'Psr\\Log\\' => 8,
+            'Psr\\Http\\Message\\' => 17,
             'Predis\\' => 7,
         ),
         'M' => 
@@ -68,6 +75,10 @@ class ComposerStaticInita1cfc3112dd0221128c43210e949f47f
         array (
             0 => __DIR__ . '/..' . '/symfony/polyfill-mbstring',
         ),
+        'Symfony\\Contracts\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/symfony/contracts',
+        ),
         'Symfony\\Component\\Translation\\' => 
         array (
             0 => __DIR__ . '/..' . '/symfony/translation',
@@ -76,9 +87,25 @@ class ComposerStaticInita1cfc3112dd0221128c43210e949f47f
         array (
             0 => __DIR__ . '/..' . '/bingcool/swoolefy/score',
         ),
+        'Swlib\\Util\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/swlib/util/src',
+        ),
+        'Swlib\\Saber\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/swlib/saber/src',
+        ),
+        'Swlib\\Http\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/swlib/http/src',
+        ),
         'Psr\\Log\\' => 
         array (
             0 => __DIR__ . '/..' . '/psr/log/Psr/Log',
+        ),
+        'Psr\\Http\\Message\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/psr/http-message/src',
         ),
         'Predis\\' => 
         array (
@@ -266,6 +293,8 @@ class ComposerStaticInita1cfc3112dd0221128c43210e949f47f
         'Smarty_Template_Source' => __DIR__ . '/..' . '/smarty/smarty/libs/sysplugins/smarty_template_source.php',
         'Smarty_Undefined_Variable' => __DIR__ . '/..' . '/smarty/smarty/libs/sysplugins/smarty_undefined_variable.php',
         'Smarty_Variable' => __DIR__ . '/..' . '/smarty/smarty/libs/sysplugins/smarty_variable.php',
+        'Swlib\\Saber' => __DIR__ . '/..' . '/swlib/saber/src/Saber.php',
+        'Swlib\\SaberGM' => __DIR__ . '/..' . '/swlib/saber/src/SaberGM.php',
         'TPC_yyStackEntry' => __DIR__ . '/..' . '/smarty/smarty/libs/sysplugins/smarty_internal_configfileparser.php',
         'TPC_yyToken' => __DIR__ . '/..' . '/smarty/smarty/libs/sysplugins/smarty_internal_configfileparser.php',
         'TP_yyStackEntry' => __DIR__ . '/..' . '/smarty/smarty/libs/sysplugins/smarty_internal_templateparser.php',
@@ -275,10 +304,10 @@ class ComposerStaticInita1cfc3112dd0221128c43210e949f47f
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
-            $loader->prefixLengthsPsr4 = ComposerStaticInita1cfc3112dd0221128c43210e949f47f::$prefixLengthsPsr4;
-            $loader->prefixDirsPsr4 = ComposerStaticInita1cfc3112dd0221128c43210e949f47f::$prefixDirsPsr4;
-            $loader->fallbackDirsPsr4 = ComposerStaticInita1cfc3112dd0221128c43210e949f47f::$fallbackDirsPsr4;
-            $loader->classMap = ComposerStaticInita1cfc3112dd0221128c43210e949f47f::$classMap;
+            $loader->prefixLengthsPsr4 = ComposerStaticInitf41ed171c26d93973518d0a32a067b3d::$prefixLengthsPsr4;
+            $loader->prefixDirsPsr4 = ComposerStaticInitf41ed171c26d93973518d0a32a067b3d::$prefixDirsPsr4;
+            $loader->fallbackDirsPsr4 = ComposerStaticInitf41ed171c26d93973518d0a32a067b3d::$fallbackDirsPsr4;
+            $loader->classMap = ComposerStaticInitf41ed171c26d93973518d0a32a067b3d::$classMap;
 
         }, null, ClassLoader::class);
     }

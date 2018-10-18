@@ -8,6 +8,8 @@ $baseDir = dirname($vendorDir);
 return array(
     '2c102faa651ef8ea5874edb585946bce' => $vendorDir . '/swiftmailer/swiftmailer/lib/swift_required.php',
     '0e6d7bf4a5811bfa5cf40c5ccd6fae6a' => $vendorDir . '/symfony/polyfill-mbstring/bootstrap.php',
+    '045cd5d476702c3529ef3e1b9f615e70' => $vendorDir . '/swlib/http/src/functions.php',
     'e675755c435e9e82693af9ebebbaa735' => $vendorDir . '/bingcool/swoolefy-orm/src/config.php',
+    '3a6b4a1bc7c69c0620b4ef88fb5d27d0' => $vendorDir . '/swlib/saber/src/include/functions.php',
     'd65a7b732574be2e37fbdc7082a19f37' => $vendorDir . '/whitemerry/phpkin/src/functions.php',
 );
